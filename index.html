@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Joey de Klerk</title>
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    </head>
+
+    <body>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.slider').slider({full_width: true});
+            });
+        </script>
+        <script>
+            $(document).ready(function(){
+                $('.scrollspy').scrollSpy();
+            });
+        </script>
+        <script>
+            $(document).ready(function(){
+                $('.parallax').parallax();
+            });
+        </script>
+        <script>
+            $(document).ready(function(){
+                $('ul.tabs').tabs();
+              });            
+        </script>
+        <script>
+            $(document).ready(function (){
+                $("#click").click(function (){
+                    $('html, body').animate({
+                        scrollTop: $("#infotext").offset().top
+                    }, 2000);
+                });
+            });
+        </script>
+        <ul class="tabs">
+            <li class="tab"><a href="#Home">Home</a></li>
+            <li class="tab"><a href="#About">About</a></li>
+            <li class="tab"><a href="#Contact">Contact</a></li>
+        </ul>
+        <div id="Home">
+            <div id="index-banner" class="parallax-container">
+                <div class="section no-pad-bot">
+                    <div class="container">
+                        <br><br>
+                        <h1 class="animated fadeIn mb-4 header center white-text text-white">Joey de Klerk</h1>
+                        <div class="row center">
+                            <h5 class="header col s12 light"><i>Applicatie Ontwikkelaar</i></h5>
+                        </div>
+                        <div class="row center">
+                            <a href= "#" id="click" class="btn-large waves-effect waves-light indigo darken-3">Lees Meer</a>
+                        </div>
+                        <br><br> 
+                    </div>
+                </div>
+                <div class="parallax"><img src="assets/img/DarkForest.jpg" alt="darkforest" style="display: block; transform: translate3d(-50%, 393px, 0px);"></div>
+            </div>
+
+            <div id="section1" class="section white">
+                <div class="row container">
+                    <h2 class="header">Informatie</h2>
+                    <p id="infotext" class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus perspiciatis itaque voluptate sequi enim id? Nemo laborum soluta id eligendi voluptatibus architecto aliquid, magni dicta placeat nam ex quaerat provident.
+                    Veniam tenetur laborum explicabo aperiam accusantium sint possimus labore minus, commodi officia, autem ducimus fugiat? Perferendis cupiditate voluptas enim, libero vero doloribus debitis animi ratione, laborum excepturi vitae cumque dolores?
+                    Reprehenderit, quibusdam fugiat. Veniam itaque modi, maiores iusto accusantium porro architecto explicabo molestias? Magnam maiores eaque quod fugiat? Quia quae illo assumenda ipsa labore neque esse quos earum laudantium eaque!
+                    Qui, voluptas. Culpa illum totam consectetur molestiae voluptatum, eum amet impedit, iure dicta fugit inventore adipisci velit, voluptate praesentium dolorum dignissimos vitae necessitatibus. Iste, in et! Explicabo culpa hic dolor?</p>
+                </div>
+            </div>
+
+            <div id="index-banner" class="parallax-container">
+                    <div class="section no-pad-bot">
+                        <div class="row container">
+                            <br><br>
+                            <h1 id="h1hobby" class="header center white-text text-white">Vaardigheden</h1>
+                        </div>
+                        <div class="row center">
+                            <a href="#" id="download-button" class="tab btn-large waves-effect waves-light indigo darken-3">Lees Meer</a>
+                        </div>
+                    </div>
+                <div class="parallax"><img src="assets/img/BigThruster.jpg" alt="darkforest" style="display: block; transform: translate3d(-50%, 393px, 0px);"></div>
+            </div>
+
+            <div id="cards" class= "row">
+                <div class="col s12 m3">
+                    <div class="card indigo hoverable">
+                        <div class="card-content white-text">
+                            <span class="card-title">
+                                <p>HTML</p>
+                            </span>
+                            <p>Cupidatat dolore velit pariatur duis laboris ipsum. Ut ipsum non nostrud in sit cupidatat irure esse laboris sint. Qui cupidatat elit esse cillum nulla ullamco fugiat magna. Nostrud aliquip occaecat laborum duis anim proident in Lorem officia ipsum officia ipsum. Minim Lorem esse consequat nisi culpa nostrud consequat culpa consequat elit. Aliqua qui nostrud qui eu ex cillum nisi. Duis pariatur ullamco est voluptate deserunt.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m3">
+                    <div class="card indigo hoverable">
+                        <div class="card-content white-text">
+                            <span class="card-title">
+                                <p>CSS</p>
+                            </span>
+                            <p>Ea ut enim dolore esse. Lorem eiusmod cillum magna nulla minim dolore eiusmod incididunt esse proident excepteur nulla et. Magna nostrud deserunt mollit elit veniam. Cupidatat eu culpa exercitation ea eu fugiat. Do velit aliquip nostrud reprehenderit ea voluptate qui eiusmod ad. Officia ex reprehenderit esse amet ex. Et culpa dolore aliqua ex dolor velit eu.</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div id="cards" class="section row">
+                <div class="col s12 m3">
+                    <div class="card indigo hoverable">
+                        <div class="card-content white-text">
+                            <span class="card-title">
+                                <p>Javascript</p>
+                            </span>
+                            <p>Ad reprehenderit fugiat dolore qui reprehenderit commodo laborum proident. Commodo et anim in est quis aliqua veniam laboris proident. Elit culpa ipsum eiusmod aliquip magna in officia deserunt veniam ad esse reprehenderit ex minim.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m3">
+                    <div class="card indigo hoverable">
+                        <div class="card-content white-text">
+                            <span class="card-title">
+                                <p>Photoshop</p>
+                            </span>
+                            <p>Ad reprehenderit fugiat dolore qui reprehenderit commodo laborum proident. Commodo et anim in est quis aliqua veniam laboris proident. Elit culpa ipsum eiusmod aliquip magna in officia deserunt veniam ad esse reprehenderit ex minim.</p>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+
+        <div id="index-banner" class="parallax-container">
+                <div id="projectborder" class="section no-pad-bot">
+                    <div class="row container">
+                        <br><br>
+                        <h1 id="h1project" class="header center white-text text-white">Projecten</h1>
+                    </div>
+                    <div class="row center">
+                        <a href="#" id="download-button" class="tab btn-large waves-effect waves-light red">Lees Meer</a>
+                    </div>
+                </div>
+            <div class="parallax"><img src="assets/img/CartoonTrees.jpg" alt="darkforest" style="display: block; transform: translate3d(-50%, 393px, 0px);"></div>
+        </div>
+        <div id="cards" class="row">
+                <div class="col s12 m4">
+                    <div id="test" class="card red hoverable">
+                        <div class="card-content white-text">
+                            <span class="card-title">
+                                <p>HTML</p>
+                            </span>
+                            <p>Cupidatat `dolore velit pariatur duis laboris ipsum. Ut ipsum non nostrud in sit cupidatat irure esse laboris sint. Qui cupidatat elit esse cillum nulla ullamco fugiat magna. Nostrud aliquip occaecat laborum duis anim proident in Lorem officia ipsum officia ipsum. Minim Lorem esse consequat nisi culpa nostrud consequat culpa consequat elit. Aliqua qui nostrud qui eu ex cillum nisi. Duis pariatur ullamco est voluptate deserunt.</p>
+                            <img class="responsive-img" src="assets/img/html.png">
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col s12 m4">
+                    <div id="test" class="card red hoverable">
+                        <div class="card-content white-text">
+                            <span class="card-title">
+                                <p>CSS</p>
+                            </span>
+                            <p>Ea ut enim dolore esse. Lorem eiusmod cillum magna nulla minim dolore eiusmod incididunt esse proident excepteur nulla et. Magna nostrud deserunt mollit elit veniam. Cupidatat eu culpa exercitation ea eu fugiat. Do velit aliquip nostrud reprehenderit ea voluptate qui eiusmod ad. Officia ex reprehenderit esse amet ex. Et culpa dolore aliqua ex dolor velit eu.</p>
+                            <img class="responsive-img" src="assets/img/htmlcss.png">
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="col s12 m4">
+                    <div id="test" class="card red hoverable">
+                        <div class="card-content white-text">
+                            <span class="card-title">
+                                <p>Javascript</p>
+                            </span>
+                            <p>Ad reprehenderit fugiat dolore qui reprehenderit commodo laborum proident. Commodo et anim in est quis aliqua veniam laboris proident. Elit culpa ipsum eiusmod aliquip magna in officia deserunt veniam ad esse reprehenderit ex minim.</p>
+                            <img id="robotimg" class="responsive-img" src="assets/img/robot.png">
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+
+        <div id="section1" class="section white">
+        	<div class="row container">
+                <h2 class="header">Contact</h2>
+                <p id="infotext" class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus perspiciatis itaque voluptate sequi enim id? Nemo laborum soluta id eligendi voluptatibus architecto aliquid, magni dicta placeat nam ex quaerat provident.
+                Veniam tenetur laborum explicabo aperiam accusantium sint possimus labore minus, commodi officia, autem ducimus fugiat? Perferendis cupiditate voluptas enim, libero vero doloribus debitis animi ratione, laborum excepturi vitae cumque dolores?
+            	Reprehenderit, quibusdam fugiat. Veniam itaque modi, maiores iusto accusantium porro architecto explicabo molestias? Magnam maiores eaque quod fugiat? Quia quae illo assumenda ipsa labore neque esse quos earum laudantium eaque!
+                Qui, voluptas. Culpa illum totam consectetur molestiae voluptatum, eum amet impedit, iure dicta fugit inventore adipisci velit, voluptate praesentium dolorum dignissimos vitae necessitatibus. Iste, in et! Explicabo culpa hic dolor?</p>
+            </div>
+        </div> 
+    
+        <footer><p class="animated fadeIn footerp">Made by Joey de Klerk - 2017</p></footer>
+    </body>
+</html>
