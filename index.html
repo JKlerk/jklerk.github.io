@@ -45,19 +45,25 @@
                 });
             });
         </script>
+        <script>
+            $(document).ready(function(){
+                $('.slider').slider();
+            });
+        </script>
         <ul class="tabs">
             <li class="tab"><a href="#Home">Home</a></li>
             <li class="tab"><a href="#Project">Project</a></li>
-            <li class="tab"><a href="#Contact">Contact</a></li>
+            <li class="tab"><a href="#Hobby">Hobby's</a></li>
+            <li class="tab"><a href="#CV">CV</a></li>
         </ul>
         <div id="Home">
-            <div id="index-banner" class="parallax-container">
+            <header id="index-banner" class="parallax-container">
                 <div class="section no-pad-bot">
                     <div class="container">
                         <br><br>
-                        <h1 class="animation-fadeIn mb-4 header center white-text text-white">Joey de Klerk</h1>
+                        <h1 class="mb-4 header center white-text text-white">Joey de Klerk</h1>
                         <div class="row center">
-                            <h5 class="header col s12 light"><i>Applicatie Ontwikkelaar</i></h5>
+                            <h5 class="header col s12 light"><i>Applicatie Ontwikkelaar</i></h5><img class="circle responsive-img" id="joey" src="assets/img/joey.jpg" alt="joey">
                         </div>
                         <div class="row center">
                             <a href= "#" id="click" class="btn-large waves-effect waves-light indigo darken-3">Lees Meer</a>
@@ -66,11 +72,11 @@
                     </div>
                 </div>
                 <div class="parallax"><img src="assets/img/DarkForest.jpg" alt="darkforest" style="display: block; transform: translate3d(-50%, 393px, 0px);"></div>
-            </div>
+            </header>
 
             <div id="section1" class="section white">
                 <article class="row container">
-                    <h2 class="header">Informatie</h2>
+                    <h2 id="infotext" class="header">Informatie</h2>
                     <p>Mijn naam is Joey de Klerk</p>
                     <ul>
                         <li>Voornaam: Joey</li>
@@ -78,7 +84,9 @@
                         <li>Leeftijd: 16 jaar</li>
                         <li>Woonplaats: Dordrecht</li>
                         <li>Opleiding: ApplicatieOntwikkelaar</li>
+                        <li>Diploma: VMBO-TL</li>
                     </ul>
+                    
                 </article>
             </div>
 
@@ -89,10 +97,10 @@
                             <h1 id="h1hobby" class="header center white-text text-white">Vaardigheden</h1>
                         </div>
                         <div class="row center">
-                            <a href="#" id="download-button" class="tab btn-large waves-effect waves-light indigo darken-3">Lees Meer</a>
+                            <h5 class="header col s12 light"><i>van Joey de Klerk</i></h5>
                         </div>
                     </div>
-                <div class="parallax"><img src="assets/img/BigThruster.jpg" alt="darkforest" style="display: block; transform: translate3d(-50%, 393px, 0px);"></div>
+                <div class="parallax"><img src="assets/img/BigThruster.jpg" alt="darkforest" style="display: block; transform: translate3d(-50%, 300px, 0px);"></div>
             </div>
 
             <div id="cards" class= "row">
@@ -102,7 +110,8 @@
                             <span class="card-title">
                                 <p>HTML</p>
                             </span>
-                            <p>Cupidatat dolore velit pariatur duis laboris ipsum. Ut ipsum non nostrud in sit cupidatat irure esse laboris sint. Qui cupidatat elit esse cillum nulla ullamco fugiat magna. Nostrud aliquip occaecat laborum duis anim proident in Lorem officia ipsum officia ipsum. Minim Lorem esse consequat nisi culpa nostrud consequat culpa consequat elit. Aliqua qui nostrud qui eu ex cillum nisi. Duis pariatur ullamco est voluptate deserunt.</p>
+                            <p>Rond augustus 2017 heb ik mijn eerste opdracht van HTML gekregen. Het daarvoor in 2016 heb ik al een keer met HTML gewerkt op een meeloop dag. De eerste opdracht vond ik zelf nog gemakkelijk gaan omdat ik al een klein beetje wist hoe het werkte. Nu weet ik hoe HTML werkt en kan ik gemakklijk dingen laten zien op een webpaginas. Ik weet nu hoe websites gemaakt zijn.</p>
+                            <img class="responsive-img" src="assets/img/html.jpg">
                         </article>
                     </div>
                 </div>
@@ -113,19 +122,20 @@
                             <span class="card-title">
                                 <p>CSS</p>
                             </span>
-                            <p>Ea ut enim dolore esse. Lorem eiusmod cillum magna nulla minim dolore eiusmod incididunt esse proident excepteur nulla et. Magna nostrud deserunt mollit elit veniam. Cupidatat eu culpa exercitation ea eu fugiat. Do velit aliquip nostrud reprehenderit ea voluptate qui eiusmod ad. Officia ex reprehenderit esse amet ex. Et culpa dolore aliqua ex dolor velit eu.</p>
+                            <p>Rond augustus 2017 heb ik samen met mijn eerste HTML opdracht ook een CSS opdracht gekregen. Met CSS heb ik mijn websites mooi gemaakt en kopjes op een mooie plek gezet. Dit was ook de eerste keer dat ik met CSS ging werken. Op dit moment weet ik hoe CSS werkt en kan ik mooie en professionele websites maken.</p>
+                            <img class="responsive-img" src="assets/img/wiebenik.png">
                         </article>
                     </div>
-                </div> 
-            </div>
-            <div id="cards" class="section row">
+                </div>
+
                 <div class="col s12 m3">
                     <div class="card indigo hoverable">
                         <article class="card-content white-text">
                             <span class="card-title">
                                 <p>Javascript</p>
                             </span>
-                            <p>Ad reprehenderit fugiat dolore qui reprehenderit commodo laborum proident. Commodo et anim in est quis aliqua veniam laboris proident. Elit culpa ipsum eiusmod aliquip magna in officia deserunt veniam ad esse reprehenderit ex minim.</p>
+                            <p>Mijn eerste opdracht van Javascript was robotarm. Deze opdracht vond ik bij het begin erg makkelijk alleen daarna werd het moeilijker. Ik weet nog niet heel veel van Javascript dus maar een klein beetje. In de toekomt hoop ik meer te leren van Javascript</p>
+                            <img class="responsive-img" src="assets/img/js.png">
                         </article>
                     </div>
                 </div>
@@ -136,7 +146,8 @@
                             <span class="card-title">
                                 <p>Photoshop</p>
                             </span>
-                            <p>Ad reprehenderit fugiat dolore qui reprehenderit commodo laborum proident. Commodo et anim in est quis aliqua veniam laboris proident. Elit culpa ipsum eiusmod aliquip magna in officia deserunt veniam ad esse reprehenderit ex minim.</p>
+                            <p>Thuis werk ik soms met Photoshop op logo's te maken voor mijn accounts zoals github en mijn emails. Dit vindt ik leuk om te doen en ik ken nu wel de basis van Photoshop.</p>
+                            <img class="responsive-img" src="assets/img/jklerk.png">
                         </article>
                     </div>
                 </div>  
@@ -156,48 +167,94 @@
                 <div class="parallax"><img src="assets/img/CartoonTrees.jpg" alt="darkforest" style="display: block; transform: translate3d(-50%, 393px, 0px);"></div>
             </div>
             <div id="cards" class="row">
-                    <div class="col s12 m4">
-                        <div id="test" class="card red hoverable">
-                            <article class="card-content white-text">
-                                <span class="card-title">
-                                    <p>Wie ben ik</p>
-                                </span>
-                                <p>Aan het begin van het jaar hebben we een opdracht gemaakt genaamd: Wie ben ik. Hierbij moesten we informatie of onszelf geven met onze hobby's. Dit was mijn eerste HTML/CSS opdracht die ik heb gemaakt. Zlef vond ik deze opdraht zeer gemakkelijk omdat ik HTML en CSS al snel begreep.</p>
-                                <img class="responsive-img" src="assets/img/html.jpg">
-                            </article>
-                        </div>
-                    </div> 
-
-                    <div class="col s12 m4">
-                        <div id="test" class="card red hoverable">
-                            <article class="card-content white-text">
-                                <span class="card-title">
-                                    <p>Layout</p>
-                                </span>
-                                <p>De layout was de 4de opdracht van HTML/CSS dat we mosten maken. Daarin moesten we informatie geven over onze hobby's. De positionering moesten we doen met de Flex box. Dit is een van de beste websites die ik heb gemaakt met html/css.</p>
-                                <img class="responsive-img" src="assets/img/htmlcss.jpg">
-                            </article>
-                        </div>
-                    </div> 
-
-                    <div class="col s12 m4">
-                        <div id="test" class="card red hoverable">
-                            <article class="card-content white-text">
-                                <span class="card-title">
-                                    <p>RobotArm</p>
-                                </span>
-                                <p>Robotarm was mijn eerste Javascript opdracht. Met deze opdracht zorgde ik ervoor dat een arm een blokje op pakt en dan verplaatst naar een andere plek. Er zaten ook opdrachten dat we bijvoorbeeld maar 1 kleur moeten verplaatsten en de rest niet. Deze opdracht vond ik bij het begin wel moeilijk alleen toen ik het snapte vond ik het wel makkelijk.</p>
-                                <img id="robotimg" class="responsive-img" src="assets/img/robot.jpg">
-                            </article>
-                        </div>
-                    </div>    
-                </div>
+                <div class="col s12 m4">
+                    <div id="test" class="card red hoverable">
+                        <article class="card-content white-text">
+                            <span class="card-title">
+                                <p>Wie ben ik</p>
+                            </span>
+                            <p>Aan het begin van het jaar hebben we een opdracht gemaakt genaamd: Wie ben ik. Hierbij moesten we informatie of onszelf geven met onze hobby's. Dit was mijn eerste HTML/CSS opdracht die ik heb gemaakt. Zlef vond ik deze opdraht zeer gemakkelijk omdat ik HTML en CSS al snel begreep.</p>
+                            <img id="wieimg" class="responsive-img" src="assets/img/html.jpg">
+                        </article>
+                    </div>
+                </div> 
+                <div class="col s12 m4">
+                    <div id="test" class="card red hoverable">
+                        <article class="card-content white-text">
+                            <span class="card-title">
+                                <p>Layout</p>
+                            </span>
+                            <p>De layout was de 4de opdracht van HTML/CSS dat we moesten maken. Daarin moesten we informatie geven over onze hobby's. De positionering moesten we doen met de Flex box. Dit is een van de beste websites die ik heb gemaakt met html/css.</p>
+                            <img id="layoutimg" class="responsive-img" src="assets/img/htmlcss.jpg">
+                        </article>
+                    </div>
+                </div> 
+                <div class="col s12 m4">
+                    <div id="test" class="card red hoverable">
+                        <article class="card-content white-text">
+                            <span class="card-title">
+                                <p>RobotArm</p>
+                            </span>
+                            <p>Robotarm was mijn eerste Javascript opdracht. Met deze opdracht zorgde ik ervoor dat een arm een blokje op pakt en dan verplaatst naar een andere plek. Er zaten ook opdrachten dat we bijvoorbeeld maar 1 kleur moeten verplaatsten en de rest niet. Deze opdracht vond ik bij het begin wel moeilijk alleen toen ik het snapte vond ik het wel makkelijk.</p>
+                            <img id="robotimg" class="responsive-img" src="assets/img/robot.jpg">
+                        </article>
+                    </div>
+                </div>    
             </div>
         </div>
+        <div id="Hobby">    
+            <div class="slider">
+                <ul class="slides">
+                    <li>
+                        <img src="assets/img/Icehockey.jpg">
+                        <div class="caption center-align">
+                            <h3>Icehockey</h3>
+                            <h5 class="light grey-text text-lighten-3">Deze sport heb ik rond de 8 jaar gedaan.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/img/Airfield.jpg">
+                        <div class="caption left-align">
+                            <h3>Gaming</h3>
+                            <h5 class="light grey-text text-lighten-3">Ik speel games zoals:</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/img/Witcher.jpg">
+                        <div class="caption right-align">
+                            <h3>Witcher 3</h3>
+                            <h5 class="light grey-text text-lighten-3">The Witcher 3: Wild Hunt is een actierollenspel van het Poolse CD Projekt RED.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/img/cs.jpg">
+                        <div class="caption center-align">
+                            <h3>CounterStrike</h3>
+                            <h5 class="light grey-text text-lighten-3">Counter-Strike: Global Offensive is een first-person shooter die op 21 augustus 2012 door Valve werd uitgebracht.</h5>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="CV">
+                <h1 class="mb-4 header center white-text text-white">Joey de Klerk</h1>
+                <ul class="center">
+                    <li>Voornaam: Joey</li><br>
+                    <li>Achternaam: de Klerk</li><br>
+                    <li>Geboren: 11-05-2001</li><br>
+                    <li>Leeftijd: 16 jaar</li><br>
+                    <li>Nationaliteit: Nederlands</li><br>
+                    <li>Geslacht: Man</li><br>
+                    <li>Opleiding: ApplicatieOntwikkelaar</li><br>
+                    <li>Diplomas: VMBO-TL</li><br>
+                </ul>
+            </div>
+
         <div id="section1" class="section white">
         	<article class="row container">
                 <h2 class="header">Contact</h2>
-                <p id="infotext" class="grey-text text-darken-3 lighten-3">Met de volgende links is het mogelijk om met mij contact op te nemen.</p>
+                <p class="grey-text text-darken-3 lighten-3">Met de volgende links is het mogelijk om met mij contact op te nemen.</p>
         	</article>
         </div> 
     

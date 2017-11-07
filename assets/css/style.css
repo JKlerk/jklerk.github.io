@@ -1,3 +1,7 @@
+.slides li{
+    text-shadow: 1px 1px black;
+}
+
 .row container p{
     width: 20px;
 }
@@ -49,6 +53,14 @@ img{
     padding-top: 20px;
 }
 
+#wieimg{
+    max-height: 979px;
+}
+
+#layoutimg{
+    max-height: 836px;
+}
+
 #robotimg{
-    height: 300px;
+    max-height: 300px;
 }
