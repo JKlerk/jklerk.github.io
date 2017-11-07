@@ -60,3 +60,17 @@ img{
 #robotimg{
     max-height: 300px;
 }
+
+.frame{
+    background-image: url("../img/Treebase.jpg")
+}
+
+.frame2{
+    background-color: rgba(218, 218, 218, 0.308);
+    width: 500px;
+    padding: 10px;
+}
+
+#contact{
+    font-size: 19px;
+}
