@@ -1,3 +1,7 @@
+body{
+    overflow-y: hidden;
+}
+
 .slides li{
     text-shadow: 1px 1px black;
 }
