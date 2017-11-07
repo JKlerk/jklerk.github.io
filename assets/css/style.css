@@ -1,5 +1,5 @@
 body{
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .slides li{
@@ -22,14 +22,6 @@ h1{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
-
-footer{
-    max-width: 100%;
-    height: auto;
-    bottom: 0px;
-    padding: 0px 1707px 0px 0px;
-    background-color: #212121
-} 
 
 .footerp{
     margin: 0px 0px 0px 0px;
